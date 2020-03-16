@@ -1,0 +1,11 @@
+{
+  "id": "com.vuejs.sample",
+  "version": "0.0.1",
+  "vendor": "LG Electronics",
+  "type": "web",
+  "main": "index.html",
+  "title": "Hello World for vuejs",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "requiredPermissions": ["time"]
+}

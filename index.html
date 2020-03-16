@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	body {
+			width: 100%;
+			height: 100%;
+			background-color: #202020;
+	}
+
+	div {
+			position:absolute;
+			top: 50%;
+			height:100%;
+			width:100%;
+			display: table;
+	}
+
+	h1 {
+			vertical-align: middle;
+			text-align:center;
+			color: #FFFFFF;
+	}
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+	<script src="webOSjs-0.1.0/webOS.js" charset="utf-8"></script>
+</head>
+<body>
+	<div id="app">
+		<h1>{{ message }}</h1>
+		<h1> TimeZone : {{ timezone }}</h1>
+		<h1> Date : {{ date }}</h1>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>
