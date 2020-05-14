@@ -6,6 +6,5 @@
   "main": "index.html",
   "title": "Hello World for vuejs",
   "icon": "icon.png",
-  "largeIcon": "largeIcon.png",
   "requiredPermissions": ["time"]
 }
