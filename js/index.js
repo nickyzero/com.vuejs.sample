@@ -1,7 +1,7 @@
 var app = new Vue({
     el: "#app",
     data: {
-        message : "Hello webOS OpenSourceEdtion World! - Vue.js",
+        message : "Hello webOS OpenSourceEdition World! - Vue.js",
         timezone : "",
         date: ""
     },
